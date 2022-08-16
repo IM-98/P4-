@@ -696,6 +696,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: block;
 }
 
 h2 {
