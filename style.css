@@ -608,7 +608,7 @@ a[data-lightbox]:hover img {
 .prev-lightbox {
     font-size: 20px;
     color: rgba(255, 255, 255, .9);
-    background: rgba(0, 0, 0, .5);
+    background: rgba(255, 255, 255, 1);
     transition: all .2s ease-in-out;
     position: absolute;
     top: 45%;
@@ -617,12 +617,12 @@ a[data-lightbox]:hover img {
 }
 
 .next-lightbox {
-    padding: 6px 8px 1px 13px;
+    padding: 6px 8px 4px 13px;
     right: 25px;
 }
 
 .prev-lightbox {
-    padding: 6px 13px 1px 10px;
+    padding: 6px 13px 4px 10px;
     left: 25px;
 }
 
@@ -674,7 +674,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -733,7 +733,11 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #ffffff!important;
+}
+
+.black {
+    color: #000000!important;
 }
 
 .portfolio-thumb {
@@ -768,7 +772,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #8D3E16;
+    background-color: #F3976C;
 }
 
 .tc-white {
@@ -776,8 +780,8 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #8D3E16;
-    color: #FFFFFF!important;
+    background: #F3976C;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -810,9 +814,8 @@ h4 {
     background-image: url("img/dots-bg.png");
 }
 
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-}
+
+
 
 .bg-banniere {
     background-image: url("img/agence-la-panthere.webp");
